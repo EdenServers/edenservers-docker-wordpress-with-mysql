@@ -19,6 +19,7 @@ RUN wget "https://wordpress.org/latest.zip" && \
 RUN chown -R www-data:www-data /var/www/html
 
 #Add configuration scripts
+ADD wp-config.php /var/www/html/wp-config.php
 ADD mysql_config.sh /mysql_config.sh
 ADD apache_config.sh /apache_config.sh
 ADD start.sh /start.sh
