@@ -1,4 +1,4 @@
-# Official Garry's Mod Server Container on EdenServers
+# Official Wordpress Container on EdenServers
 
 [![Run on EdenServers](https://img.shields.io/badge/EdenServers-view-blue.svg)](http://www.edenservers.us)
 
