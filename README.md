@@ -1,13 +1,46 @@
-edenservers-docker-wordpress-with-mysql
-======================
+# Official Garry's Mod Server Container on EdenServers
 
-Ready to use Wordpress docker image. Mysql included and wordpress preconfigured to use that database.
+[![Run on EdenServers](https://img.shields.io/badge/EdenServers-view-blue.svg)](http://www.edenservers.us)
 
-Usage
-======================
+![](http://image.noelshack.com/fichiers/2015/35/1440685079-wordpress-logo.jpg)
 
-Start your image:
+All-in-one Wordpress Container built for [EdenServers](http://www.edenservers.us).
 
-	docker run -d -p 80:80 edenservers/wordpress
+---
 
-Now open a browser and go to http://localhost and enjoy your new fancy Wordpress container!
+**This image is meant to be used on an EdenServers Server.**
+
+Our images are built to specifically run for our services. You can run it directly with Docker though.
+
+---
+### 1.0.0 (2015-08-27)
+
+This initial version contains:
+
+* *wordpress*
+* *mysql*
+
+---
+
+## Install
+
+    $ docker pull edenservers/wordpress
+
+---
+
+## Config
+
+
+| Port  | Description |
+| ------------- | ------------- |
+| 80 | Wordress  |
+
+---
+
+## Run example
+
+    $ docker run -d -p 80:80 edenservers/wordpress
+
+---
+
+Made by [![EdenServers](http://image.noelshack.com/fichiers/2015/35/1440630894-logo.png)](https://www.edenservers.us)
